@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TDForeclosureFinalProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/TDcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/TDcolorPrimaryDark</item>
+        <item name="colorAccent">@color/TDcolorAccent</item>
+    </style>
+
+    <style name="Theme.TDForeclosureFinalProject" parent="Base.Theme.TDForeclosureFinalProject" />
+
+    <style name="Base.Theme.TDForeclosureFinalProject.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+
+    <style name="Base.Theme.TDForeclosureFinalProject.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Base.Theme.TDForeclosureFinalProject.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Base.Theme.TDForeclosureFinalProject.TextInputLayout">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+
+
+
+    <style name="Base.Theme.TDForeclosureFinalProject.SignUpButton">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:text">Sign Up</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Base.Theme.TDForeclosureFinalProject.TextInputEditText">
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+    <style name="Base.Theme.TDForeclosureFinalProject.Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Base.Theme.TDForeclosureFinalProject.Text.ErrorText">
+        <item name="android:textColor">@color/Red</item>
+    </style>
+
+
+    <style name="Base.Theme.TDForeclosureFinalProject.Text.HintText">
+        <item name="android:textColor">@color/Dark_Gray</item>
+    </style>
+
+</resources>
