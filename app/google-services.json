@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "838489184124",
+    "project_id": "td-final-project",
+    "storage_bucket": "td-final-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838489184124:android:bc3dccc384b80f907836f9",
+        "android_client_info": {
+          "package_name": "ca.agoldfish.tdforeclosurefinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838489184124-n6n26jf11tebfh67j5vqqn13h8hovov1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKCqnGJtoU-yf189L0iC4knpSmpRJTDvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838489184124-n6n26jf11tebfh67j5vqqn13h8hovov1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

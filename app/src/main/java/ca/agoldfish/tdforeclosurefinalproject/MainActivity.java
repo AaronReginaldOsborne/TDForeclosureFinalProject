@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             fc.replaceFragment(new HomeFragment());
         } else if (id == R.id.nav_list) {
-            //fc.replaceFragment(new ListFragment());
+            fc.replaceFragment(new ListFragment());
         } else if (id == R.id.nav_map) {
             //fc.replaceFragment(new MapFragment());
         } else if (id == R.id.nav_mix) {

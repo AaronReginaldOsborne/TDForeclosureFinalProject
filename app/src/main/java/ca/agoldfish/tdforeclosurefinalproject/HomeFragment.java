@@ -52,16 +52,14 @@ public class HomeFragment extends Fragment {
 
         filterButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                //fc.replaceFragment(new FilterFragment());
+            public void onClick(View v) {fc.replaceFragment(new FilterFragment());
             }
         });
 
         listButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //fc.replaceFragment(new ListFragment());
+                fc.replaceFragment(new ListFragment());
             }
         });
 
