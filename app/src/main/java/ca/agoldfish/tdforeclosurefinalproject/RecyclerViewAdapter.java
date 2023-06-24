@@ -18,6 +18,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import ca.agoldfish.tdforeclosurefinalproject.property_information.property_information;
+
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
     private  static final String TAG = "RecyclerViewAdapter";
 
